@@ -61,7 +61,9 @@ def correct_spelling(input_text):
     
     return ' '.join(corrected_words)
 
-'''manav ka solution mil gaya '''
+'''$ git push origin main
+$ git commit -m"second commit with Mannu"
+$ git add . '''
 
 
 
