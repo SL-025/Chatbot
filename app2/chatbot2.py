@@ -111,7 +111,12 @@ if __name__ == "__main__":
 
 
 
+'''
+Git commands in Bash terminal
 
+$ git push origin main
+$ git commit -m"second commit"
+$ git add . '''
 
 
 
