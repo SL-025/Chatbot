@@ -61,6 +61,8 @@ def correct_spelling(input_text):
     
     return ' '.join(corrected_words)
 
+'''manav ka solution mil gaya '''
+
 
 
 @app2.route("/chat", methods=["POST"])
