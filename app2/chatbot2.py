@@ -1,8 +1,6 @@
 import mysql.connector
 from flask import Flask, render_template, request, jsonify
 import spacy
-from spellchecker import SpellChecker
-from spacy.lang.en.stop_words import STOP_WORDS
 from nltk.corpus import wordnet as wn
 import enchant
 
