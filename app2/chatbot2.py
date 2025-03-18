@@ -8,6 +8,7 @@ import enchant
 english_dict = enchant.Dict("en_US")
 app2 = Flask(__name__)
 
+
 nlp = spacy.load("en_core_web_sm")
 
 def connect_to_database():
