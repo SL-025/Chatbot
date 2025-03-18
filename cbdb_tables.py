@@ -4,6 +4,7 @@ def create_hyperlink(text, url):
 mydb = mysql.connector.connect(host="localhost", user="root", password="admin", database="chatbotdb")
 cur = mydb.cursor()
 
+
 s="insert into chatbots(cbid,name,url,description) values(%s,%s,%s,%s)"
 chatbots = [
      (1, 'chatgpt', 'openai.com', 'AI chatbot'),
